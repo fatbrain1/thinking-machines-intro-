@@ -1,4 +1,5 @@
-# 🤖 Thinking Machines Collaboration Package  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)  
+*(Placeholder for future academic citation)*  # 🤖 Thinking Machines Collaboration Package  
 **Pre-Mind Protocols for Human-Centric AGI**  
 *(Open invitation to Mira Murati & Thinking Machines Lab)*  
 
