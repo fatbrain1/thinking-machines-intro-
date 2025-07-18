@@ -1,1 +1,9 @@
-
+# Generate diagram placeholder
+convert -size 1200x800 xc:white -fill '#9d50bb' \
+  -draw "rectangle 100,100 500,300" \
+  -draw "rectangle 600,400 1100,700" \
+  -stroke black -strokewidth 3 -fill none \
+  -draw "line 500,200 600,550" \
+  -pointsize 36 -fill black -draw "text 150,250 'Jocker Protocol'" \
+  -draw "text 650,600 'Thinking Machines'" \
+  assets/architecture.png
