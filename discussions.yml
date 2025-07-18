@@ -1,0 +1,8 @@
+# .github/discussions/categories.yml
+categories:
+  - name: "AGI Ethics"
+    description: "Human-centric AI discussions"
+    emoji: "🤖"
+  - name: "Albanian Tech"
+    description: "Balkan AI ecosystem"
+    emoji: "🇦🇱"
