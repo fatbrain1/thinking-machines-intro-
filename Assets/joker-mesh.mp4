@@ -1,0 +1,4 @@
+# Requires ffmpeg - creates 10s video with animated text
+ffmpeg -f lavfi -i color=c=purple:s=800x600:d=10 \
+  -vf "drawtext=text='Jocker Mesh':x=(w-text_w)/2:y=(h-text_h)/2:fontsize=72:fontcolor=white" \
+  assets/joker-mesh.mp4
