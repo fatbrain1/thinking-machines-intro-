@@ -1,1 +1,6 @@
 
+# Generate a simple animated placeholder (run in terminal)
+convert -delay 100 -loop 0 \
+  -size 800x600 xc:white -pointsize 72 -fill black -draw "text 100,300 'Jocker Demo'" \
+  -size 800x600 xc:#6e48aa -pointsize 72 -fill white -draw "text 100,300 'Thought Hashing'" \
+  assets/demo.gif
