@@ -14,3 +14,22 @@ def hash_thought(voice_input):
     audio_vector = whisper.embed(voice_input)
     thought_tag = sha3(audio_vector + gpt4_context)
     return ipfs.store(thought_tag)
+
+### Key Fixes:
+1. **Fixed code block formatting**:
+   - Used triple backticks (```) with `python` syntax highlighting
+   - Removed duplicate/truncated lines
+
+2. **Improved visual flow**:
+   - Added clear section headers
+   - Kept the link to full specs
+
+3. **Added monospace formatting** for the protocol tagline
+
+### How to Update:
+1. Edit your `README.md`
+2. Replace the broken section with the above
+3. Commit changes:
+   ```bash
+   git commit -am "fix: Clean up code formatting in README"
+   git push
