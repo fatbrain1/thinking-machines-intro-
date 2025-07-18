@@ -33,3 +33,7 @@ def hash_thought(voice_input):
    ```bash
    git commit -am "fix: Clean up code formatting in README"
    git push
+**Key Steps**:
+1. `whisper.embed()`: Converts voice to vector
+2. `sha3()`: Creates cognitive hash
+3. `ipfs.store()`: Decentralized memory
