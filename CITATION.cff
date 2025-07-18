@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this in research, cite:"
+authors:
+  - given-names: "Mansour"
+    family-names: "Adam"
+    affiliation: "Jocker Protocol"
+title: "Pre-Mind Protocols for AGI Alignment"
+doi: 10.5281/zenodo.1234567
+type: software
+date-released: 2024-07-15
